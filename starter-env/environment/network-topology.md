@@ -17,7 +17,7 @@ Internet
    +-- DMZ-1 (publieke services): reverse proxy voor klantportaal
    |   (publishedrelies: Azure Front Door, dus DMZ is beperkt)
    |
-   +-- DMZ-2 (extranet): SFTP-server voor Vitens-data-uitwisseling, sub-mailservers
+   +-- DMZ-2 (extranet): SFTP-server voor sectorale waterkwaliteits-data-uitwisseling (Vewin / WaterISAC), sub-mailservers
    |
    +-- IT-Core (Level 4 enterprise):
    |   |

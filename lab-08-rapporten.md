@@ -101,7 +101,7 @@ Sla op naar /workshop/state/iso27001/rapportage/technisch-rapport.md.
 ```
 /create-audit-report
 
-Schrijf het audit rapport voor externe auditors (toekomstige certificeringsauditor en ILT-toezichthouder). Gebruik de executive-translator + compliance-auditor agent (cross-check).
+Schrijf het audit rapport voor externe auditors (toekomstige ISO 27001-certificeringsauditor en de NIS2-cyber-toezichthouder RDI). Gebruik de executive-translator + compliance-auditor agent (cross-check).
 
 Structuur volgens ISO 27001:2022 clausuur-structuur:
 1. Document control (versie, datum, scope, vertrouwelijkheid)

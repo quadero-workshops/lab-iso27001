@@ -38,7 +38,7 @@ Specifieke aandachtsgebieden uit Artikel 21 lid 2:
 
 ### Pijler 2: Meldplicht (Artikel 23)
 
-Incident-rapportage richting CSIRT-Drinkwater (sectorale CSIRT, valt onder NCSC):
+Incident-rapportage richting het NCSC (Nationaal Cyber Security Centrum, de Nederlandse overheids-CSIRT) en de bevoegde toezichthouder:
 - **Vroege waarschuwing**: binnen **24 uur** na bekend-worden van een significant incident
 - **Incident-melding**: binnen **72 uur** met uitgebreidere informatie
 - **Eindrapport**: binnen **1 maand** met root-cause en lessen
@@ -54,7 +54,8 @@ Status: **Registratie ingediend Q1 2026**, ontvangst-bevestiging ontvangen.
 ### Pijler 4: Toezicht en bestuurdersaansprakelijkheid
 
 - Bestuurders zijn persoonlijk aansprakelijk voor naleving van de zorgplicht
-- Toezichthouder: ILT (Inspectie Leefomgeving en Transport) voor de drinkwater-sector
+- Cyber-toezicht: Rijksinspectie Digitale Infrastructuur (RDI) is in de Cyberbeveiligingswet aangewezen als toezichthouder voor de zorg- en meldplicht
+- Sectoraal toezicht op drinkwaterkwaliteit en -veiligheid: ILT (Inspectie Leefomgeving en Transport), zoals nu al onder de Drinkwaterwet
 - Boetes: tot 10 miljoen EUR of 2% van de wereldwijde omzet (hoogste geldt)
 - Tijdelijk verbod op managementfuncties bij ernstige nalatigheid
 
@@ -76,15 +77,13 @@ Veel NIS2-eisen overlappen met ISO 27001:2022 Annex A. Indicatieve mapping:
 
 ## 4. Sector-specifieke aspecten
 
-### CSIRT-Drinkwater
-AquaPolder valt onder de jurisdictie van **CSIRT-Drinkwater**, gehost door Vewin (Vereniging van waterbedrijven in Nederland). Dit CSIRT ondersteunt drinkwaterbedrijven met:
-- Incident response
-- Threat intelligence (sectorspecifiek)
-- Periodieke oefeningen
-- Coordinatie met NCSC
+### CSIRT en sectorale informatiedeling
+AquaPolder rapporteert significante incidenten aan het **NCSC** (Nationaal Cyber Security Centrum, de Nederlandse overheids-CSIRT). Voor sector-specifieke threat intelligence en lessons learned maakt AquaPolder gebruik van:
+- **WaterISAC**: internationale ISAC voor de drinkwater- en afvalwatersector
+- **Vewin** (Vereniging van waterbedrijven in Nederland): brancheoverleg, periodieke oefeningen, coordinatie met NCSC
 
 ### Sector-overleg
-AquaPolder neemt deel aan WaterTAG (technical advisory group), 4x per jaar. Onderwerpen: threat landscape, incident lessons learned, beste praktijken.
+AquaPolder neemt deel aan het Vewin technisch-overleg cyber (4x per jaar). Onderwerpen: threat landscape, incident lessons learned, beste praktijken.
 
 ### Vewin-richtlijnen
 Vewin heeft sector-specifieke richtlijnen die complementair zijn aan NIS2:
@@ -97,8 +96,8 @@ Vewin heeft sector-specifieke richtlijnen die complementair zijn aan NIS2:
 ### Wat is op orde
 - Registratie bij RDI gedaan
 - Bewustzijn bij bestuur (kwartaalupdate)
-- Verbinding met CSIRT-Drinkwater gelegd
-- WaterTAG deelname
+- Aansluiting op NCSC en WaterISAC voor incident- en threat-intel-deling
+- Deelname Vewin technisch-overleg cyber
 - Defender / Sentinel / MSSP-aansluiting voor IT
 - BCM voor drinkwater-continuiteit (robuust)
 
@@ -112,11 +111,11 @@ Vewin heeft sector-specifieke richtlijnen die complementair zijn aan NIS2:
 
 ### Risico op handhaving
 Bij ontdekte non-compliance is de waarschijnlijke handhavings-route:
-1. Waarschuwing van ILT met aanwijzing tot correctie
+1. Waarschuwing van de bevoegde toezichthouder (RDI voor de cyber-zorg-/meldplicht) met aanwijzing tot correctie
 2. Boete bij niet-naleving
 3. Bestuurders-aansprakelijkheid bij ernstige nalatigheid
 
-ILT heeft in 2025 aangekondigd in 2026 actief toezicht te starten op drinkwaterbedrijven onder NIS2.
+RDI heeft in 2025 aangekondigd in 2026 actief toezicht te starten op essentiele entiteiten onder de Cyberbeveiligingswet, waaronder drinkwaterbedrijven.
 
 ## 6. Te valideren in gap-analyse
 

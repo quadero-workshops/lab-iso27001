@@ -90,7 +90,7 @@ Lever:
    - Verwijzing naar overlappende Annex A controls
 
 3. **Meldplicht-readiness** (Artikel 23):
-   - Kan AquaPolder een early warning binnen 24u bij CSIRT-Drinkwater plaatsen?
+   - Kan AquaPolder een early warning binnen 24u bij het NCSC (en de bevoegde toezichthouder RDI) plaatsen?
    - Wie beslist? Wie communiceert? Is er een geoefend pad?
    - Gap-beschrijving
 

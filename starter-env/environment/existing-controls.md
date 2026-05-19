@@ -18,7 +18,7 @@
 | Segregation of Duties | SAP rol-gebaseerd ingericht met SoD-controles, maar SAP_ALL voor CFO+IT-manager | 2-3 |
 | Management Responsibilities | Bestuur ontvangt kwartaal-update vanaf Q4 2025 | 2 |
 | Contact with Authorities | Geen formeel contact met NCSC of toezichthouders | 0 |
-| Contact with Special Interest Groups | Lid van WaterTAG (water-sector security-overleg, 4x/jaar) | 2 |
+| Contact with Special Interest Groups | Deelname Vewin technisch-overleg cyber (4x/jaar), aansluiting op WaterISAC | 2 |
 | Threat Intelligence | TI via MSSP (Sentinel-connector). Geen interne TI-functie | 2 |
 | Supplier Relationships | Procedure bestaat voor leveranciers > 50k. NIS2-update in progress | 1-2 |
 | Information Security in Project Management | Geen formeel security-by-design in projecten | 0-1 |

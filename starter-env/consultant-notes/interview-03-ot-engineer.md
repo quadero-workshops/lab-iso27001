@@ -29,7 +29,7 @@ In totaal over de 4 installaties:
 
 Central:
 - 2 redundante PI System servers (data historian, alle proces-data)
-- 1 reporting-server voor maand- en jaarrapportages voor het Vitens-netwerk (uitwisseling waterkwaliteitsdata)
+- 1 reporting-server voor maand- en jaarrapportages voor sectorale uitwisseling van waterkwaliteitsdata (Vewin / WaterISAC)
 - Een sprongserver in de OT-DMZ voor remote support van Siemens
 
 **EG**: Welke ICS protocol-stack?
@@ -116,4 +116,4 @@ Twee: we hebben fysieke toegang op de zuiveringen die niet uniform geregeld is. 
 - Wat is het patch-niveau van de S7-1500 PLC's (firmware)?
 - Hoe vaak worden de PLC-backups die Siemens maakt op restore-baarheid getest?
 
-[OPMERKING] - Robert verwijst meermaals naar "Vitens-netwerk" voor data-uitwisseling. Dit moet verder onderzocht: is dit een sector-brede uitwisseling, en welke datastromen lopen er?
+[OPMERKING] - Robert verwijst meermaals naar de sectorale waterkwaliteits-data-uitwisseling (Vewin/WaterISAC). Dit moet verder onderzocht: welke datastromen lopen er, wat is de SFTP-classificatie en zijn er toegangs-/integriteitscontroles op de uitwisselingsserver?

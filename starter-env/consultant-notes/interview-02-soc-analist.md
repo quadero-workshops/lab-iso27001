@@ -70,7 +70,7 @@ Plus een handful threat-feeds via TI-connector.
 
 **EG**: NIS2 meldplicht - kunnen jullie aan de 24-uurs early-warning voldoen?
 
-**KV**: Wij kunnen aan onze kant het alert binnen 15 min uit Sentinel halen. De vraag is wie aan AquaPolder-kant beslist of het een meldingsplichtig incident is en wie het CSIRT-Drinkwater belt. Dat is nu niet gedefinieerd. Volgens mij is dat de CIO of de CEO, maar het staat niet zwart op wit.
+**KV**: Wij kunnen aan onze kant het alert binnen 15 min uit Sentinel halen. De vraag is wie aan AquaPolder-kant beslist of het een meldingsplichtig incident is en wie de melding aan NCSC en RDI doet. Dat is nu niet gedefinieerd. Volgens mij is dat de CIO of de CEO, maar het staat niet zwart op wit.
 
 **EG**: Vulnerabilities en patch management?
 
