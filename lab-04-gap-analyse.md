@@ -77,8 +77,8 @@ Voor elke van de 4 Annex A domeinen (A.5, A.6, A.7, A.8):
 1. Bereken een gewogen gemiddelde score per domein (controls met meer evidence wegen meer)
 2. Geef een 2-zins onderbouwing per score
 3. Vergelijk met indicatieve branche-benchmarks:
-   - Drinkwater-sector NL gemiddelde 2024 (uit Vewin-sectorrapport): A.5=1.8, A.6=2.0, A.7=2.5, A.8=2.2 (indicatief)
-   - ISO 27001-gecertificeerde organisaties: minimaal CMM 3 per domein
+   - Drinkwater-sector NL hypothetische baseline (illustratief, niet uit publieke bron - markeer in rapport als aanname): A.5=1.8, A.6=2.0, A.7=2.5, A.8=2.2
+   - ISO 27001-gecertificeerde organisaties: minimaal CMM 3 per domein (algemeen geaccepteerde drempel)
 
 4. Identificeer per domein de 3 controls met laagste maturity (CMM 0-1)
 5. Bereken een gewogen totaalscore over alle 93 controls
@@ -127,7 +127,7 @@ Schrijf de review naar /workshop/state/iso27001/gap-analyse/isms-quality-review.
 |-----------|----------------|
 | Compenserende maatregelen mogen genoteerd maar tellen niet als compliant | ISO 27001 audit-conform - de originele control blijft "Deels" |
 | OT en IT scoring kan verschillen binnen dezelfde control | A.8.5 (Secure Auth) is voor M365 = Volledig, voor OT-domain = Deels |
-| Branche-benchmark plaatst AquaPolder relatief | Helpt management om "waar staan we" te beantwoorden |
+| Branche-benchmark plaatst AquaPolder relatief | Helpt management om "waar staan we" te beantwoorden - markeer in rapport expliciet als illustratieve aanname (geen publieke bron) of vervang door eigen benchmark |
 | Top-20 wordt input voor Lab 06 (risico) en Lab 07 (roadmap) | Quickwins-onderscheiding is essentieel voor menukaart |
 
 ---

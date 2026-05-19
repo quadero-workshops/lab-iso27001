@@ -24,7 +24,8 @@ In totaal over de 4 installaties:
 - 8 WinCC OA servers
 - 4 engineering workstations
 - ~40 HMI's incl. kleine touchpanels op pomp-stations
-- ~120 PLC's
+- 17 hoofdcontroller-PLC's (S7-1500 en S7-300, zie ot-architecture.md voor de breakdown per installatie)
+- Daaronder enkele honderden Profinet remote-IO modules
 - Honderden sensoren en actuatoren
 
 Central:

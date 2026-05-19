@@ -46,7 +46,7 @@ Workaround die Siemens voorstelt: zij delen wekelijks een lijst met namen van en
 **EG**: NIS2 verplicht ketenbeoordeling van leveranciers. Hoe zit dat?
 
 **NJ**: Dat is precies waar ik nu mee bezig ben. Onder de Cyberbeveiligingswet artikel 21 lid 2(d) moeten we leveranciersrisico beoordelen voor leveranciers die toegang hebben tot of essentieel zijn voor onze kritieke processen. Mijn lijst:
-- Tier 1 (kritiek): Siemens, MSSP CyberWatch, DeltaConsult (SAP), Microsoft, Hostbedrijf datacenter
+- Tier 1 (kritiek): Siemens, MSSP CyberWatch, DeltaConsult (SAP), Microsoft, Equinix (offsite-backup-locatie)
 - Tier 2 (belangrijk): SAP-payroll-partner, schoonmaak/beveiliging zuiveringen, telefonie-provider
 - Tier 3 (overig): kantoor-leveranciers, kleine licenties
 
@@ -64,7 +64,7 @@ Het assessment zelf - ik weet nu nog niet exact welke vragenlijst we gaan gebrui
 
 **Microsoft (via Insight)**: standaard CSP-overeenkomst. Hier zit weinig directe security-risico voor ons in - de Azure Shared Responsibility en M365 services zijn extern gecertificeerd. We controleren wel onze eigen configuratie.
 
-**Datacenter**: Equinix Amsterdam, AM3. Tier III+, multi-customer. Goed gecertificeerd (ISO 27001, ISAE 3402, NEN 7510). Fysieke security is hun domein.
+**Equinix Amsterdam (AM3)**: onze offsite-backup-locatie voor Veeam-tapes en cold storage; geen production-workloads daar (productie draait on-prem in Zwolle, DR in Apeldoorn). Tier III+, multi-customer, ISO 27001 / ISAE 3402 / NEN 7510 gecertificeerd. Fysieke security is hun domein.
 
 **EG**: Wat staat er in de leveranciers-onboarding nu?
 

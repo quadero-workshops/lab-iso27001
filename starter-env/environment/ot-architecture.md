@@ -36,7 +36,7 @@ Level 2 - Supervisory (per installatie)
     |
 Level 1 - Control (per installatie)
     |
-    +-- 20-40x PLC (Siemens S7-1500, sommige S7-300)
+    +-- 2-6x PLC per installatie (Siemens S7-1500, sommige S7-300)
     +-- Diverse Profinet remote IO-modules
     |
 Level 0 - Process (per installatie)

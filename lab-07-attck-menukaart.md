@@ -56,11 +56,13 @@ Voor de ICS matrix (relevant voor OT-zijde):
 
 3. Beoordeel dekking: vrijwel geen voor OT (zoals interview-02 al aangaf).
 
-Gerelateerde dreigingsactoren om mee te koppelen:
-- TA505 / Pikabot (financiele criminaliteit, BEC en ransomware-deployment)
-- Volt Typhoon (state-sponsored, kritieke infra targeting)
-- Sandworm (ICS-gerichte aanvallen, Nederland-relevant 2024)
-- Insiders (opportunistische credential-misbruik)
+Voorbeelden van dreigingsactor-categorieen om mee te koppelen (cursist motiveert de selectie op basis van risk-register en `incidenten-2025.md` - niet als gegeven feit overnemen):
+- TA505 / Pikabot - financiele criminaliteit, BEC en ransomware-deployment (relevant gezien Q3 2025 phishing-incident en SAP_ALL toegang)
+- Volt Typhoon - state-sponsored, kritieke-infra targeting (relevant: drinkwater = Annex I, NIS2-essentiele entiteit)
+- Sandworm - ICS-gerichte aanvallen, NL-relevant 2024 (relevant gezien Siemens-SCADA stack en gedeeld Siemens-account)
+- Insiders - opportunistisch credential-misbruik (relevant gezien SAP_ALL, gedeelde OT-operator-accounts, gedeeld Siemens-support-account)
+
+Cursist mag andere actoren toevoegen of bovenstaande verwerpen mits onderbouwd.
 
 Sla op naar /workshop/state/iso27001/positioning/attck-mapping.md. Maak een visuele weergave (markdown-tabel of ASCII) van de matrices.
 ```

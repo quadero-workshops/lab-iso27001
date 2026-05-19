@@ -22,7 +22,7 @@ We hebben rond de 250 endpoints, allemaal Windows 11, Intune-managed sinds 2024.
 
 **EG**: En de OT-kant?
 
-**LvB**: Daar zit ik officieel ook op, maar in de praktijk runt Robert dat. Vraag het hem maar uit. Wat ik weet: 4 zuiveringsinstallaties met Siemens WinCC OA als SCADA, PI System als historian, en ongeveer 120 PLC's verspreid. Het OT-netwerk is fysiek gescheiden van IT - "air gap" zegt Robert altijd, maar er zijn wel raakvlakken. Engineering workstations zitten in een eigen subnet, en er is een gedeeld Siemens-account voor remote support.
+**LvB**: Daar zit ik officieel ook op, maar in de praktijk runt Robert dat. Vraag het hem maar uit. Wat ik weet: 4 zuiveringsinstallaties met Siemens WinCC OA als SCADA, PI System als historian, een twintigtal hoofdcontroller-PLC's en daaronder enkele honderden remote-IO modules en veldsensoren - ik haal de tellingen door elkaar, Robert weet het exact. Het OT-netwerk is fysiek gescheiden van IT - "air gap" zegt Robert altijd, maar er zijn wel raakvlakken. Engineering workstations zitten in een eigen subnet, en er is een gedeeld Siemens-account voor remote support.
 
 **EG**: Dat gedeelde Siemens-account - is dat het account waar het Q3 2025 incident mee speelde?
 
