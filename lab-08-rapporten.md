@@ -18,7 +18,16 @@ Je hebt onder `/workshop/state/iso27001/` de volgende artefacten:
 - `risk/risk-register.md` + `risk-matrix.md` + `keten-risico.md` (Lab 06)
 - `positioning/attck-mapping.md` + `menukaart.md` + `prioritering.md` (Lab 07)
 
-De Quadero rapport-template staat in het team-iso27001 scaffold: `/workshop/templates/reports/quadero-report-template.html` (+ CSS sibling).
+De Quadero rapport-template staat in het team-iso27001 scaffold: `/workshop/templates/reports/quadero-report-template.html` (+ CSS sibling). De PDF-generator is `/workshop/scripts/generate_report.py`, usage: `python generate_report.py <input.html> -o <output.pdf>`.
+
+### Workshop platform commands gebruikt in deze lab
+
+Deze lab gebruikt twee workshop-platform commando's die in eerdere labs nog niet aan bod kwamen:
+
+- `publish` - kopieert een gerenderd rapport naar `/workshop/published/` zodat het zichtbaar is op je seat-URL.
+- `workshop-export` - zipt de complete `/workshop/state/` directory voor take-home.
+
+Zie de deelnemer-handleiding voor de volledige commando-referentie.
 
 ```bash
 cd /workshop/
