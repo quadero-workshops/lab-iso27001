@@ -1,12 +1,18 @@
 # Lab 02 - Asset Inventarisatie
 
-**Time:** 10-15 minutes
+**Time:** 25-45 minutes
 **Skill:** `/classify-assets`
 **Agent:** asset-analyst
 **Workflow:** intake-en-normalisatie (stap 2)
 **Goal:** Categoriseer de bevindingen uit Lab 01 plus de environment-documenten tot een gestandaardiseerde asset-inventarisatie volgens de 6 ISO 27001 asset-typen.
 
 ---
+
+## Prerequisites
+
+```bash
+ls /workshop/state/iso27001/intake/parsed-notes.md 2>/dev/null || echo "MISSING - doe Lab 01 eerst"
+```
 
 ## Setup
 

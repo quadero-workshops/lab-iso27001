@@ -1,12 +1,18 @@
 # Lab 05 - Multi-Norm (IEC 62443 + NIS2)
 
-**Time:** 12-15 minutes
+**Time:** 25-45 minutes
 **Skill:** `/map-iec62443` + `/assess-nis2`
 **Agent:** iec62443-specialist + nis2-analyst
 **Workflow:** multi-norm-assessment
 **Goal:** Voer parallel een IEC 62443-beoordeling voor de OT-omgeving uit en een NIS2-zorgplicht-toets. Identificeer overlap met de ISO 27001-gap-analyse om duplicatie te voorkomen.
 
 ---
+
+## Prerequisites
+
+```bash
+ls /workshop/state/iso27001/gap-analyse/gap-detail.md 2>/dev/null || echo "MISSING - doe Lab 04 eerst"
+```
 
 ## Setup
 

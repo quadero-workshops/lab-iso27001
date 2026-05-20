@@ -1,12 +1,21 @@
 # Lab 08 - Drie Rapporten + Publish
 
-**Time:** 12-15 minutes
+**Time:** 25-45 minutes
 **Skill:** `/create-executive-summary` + `/create-technical-report` + `/create-audit-report` + kernwaarden-bewaker
 **Agents:** executive-translator + rapporteur + kernwaarden-bewaker
 **Workflow:** rapportage-generatie + kwaliteitsreview
 **Goal:** Stitch alle artefacten uit Labs 01-07 tot drie doelgroep-specifieke rapporten, kwaliteits-review ze, en publiceer ze.
 
 ---
+
+## Prerequisites
+
+Alle eerdere lab-deliverables moeten bestaan:
+```bash
+for d in intake gap-analyse multi-norm risk positioning; do
+  ls /workshop/state/iso27001/$d/ >/dev/null 2>&1 || echo "MISSING /workshop/state/iso27001/$d/ - doe Lab 01-07 eerst"
+done
+```
 
 ## Setup
 

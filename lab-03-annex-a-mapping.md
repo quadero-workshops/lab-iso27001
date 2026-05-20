@@ -1,12 +1,20 @@
 # Lab 03 - Annex A Mapping
 
-**Time:** 10-12 minutes
+**Time:** 25-45 minutes
 **Skill:** `/map-annex-a`
 **Agent:** compliance-auditor
 **Workflow:** gap-analyse (stap 1)
 **Goal:** Bepaal welke van de 93 Annex A:2022 controls van toepassing zijn op AquaPolder en koppel bevindingen + assets uit Labs 01-02 aan specifieke controls.
 
 ---
+
+## Prerequisites
+
+```bash
+for f in intake/parsed-notes.md intake/asset-register.md; do
+  ls /workshop/state/iso27001/$f 2>/dev/null || echo "MISSING /workshop/state/iso27001/$f - doe Lab 01/02 eerst"
+done
+```
 
 ## Setup
 

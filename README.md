@@ -14,28 +14,34 @@ Je bent ingehuurd voor een **4-weekse gap-analyse**: **intake -> normalisatie ->
 
 De labs volgen de engagement chronologisch. Elke lab produceert een deliverable in `/workshop/state/` die de volgende lab als input gebruikt.
 
+## Taalkeuze
+
+AquaPolder is een Nederlandse klant en de gehele lab-set (instructies + deliverables) is in het Nederlands geschreven. De team-iso27001 skills en agents zijn ook overwegend Nederlands (`/parse-consultant-notes`, `/map-annex-a`, `compliance-auditor`, `isms-architect`, `kernwaarden-bewaker`). Een enkele agent-naam zoals `attack-mapper` is Engels gebleven omdat MITRE ATT&CK als framework Engelstalig is en vertaling verwarring zou geven. Roep skills aan met de exacte naam zoals in de lab vermeld.
+
 ## Lab Index
 
 | # | Lab | Skill | Time |
 |---|-----|-------|------|
-| 01 | [Engagement Kickoff](lab-01-engagement-kickoff.md) | `/parse-consultant-notes` | 10-15 min |
-| 02 | [Asset Inventarisatie](lab-02-asset-inventarisatie.md) | `/classify-assets` | 10-15 min |
-| 03 | [Annex A Mapping](lab-03-annex-a-mapping.md) | `/map-annex-a` | 10-12 min |
-| 04 | [Gap-Analyse + Maturity](lab-04-gap-analyse.md) | `/assess-control-gap` + `/score-maturity` | 12-15 min |
-| 05 | [Multi-Norm (IEC 62443 + NIS2)](lab-05-multi-norm.md) | `/map-iec62443` + `/assess-nis2` | 12-15 min |
-| 06 | [Risicobeoordeling](lab-06-risicobeoordeling.md) | `/assess-risk` | 10-12 min |
-| 07 | [ATT&CK Positionering + Menukaart](lab-07-attck-menukaart.md) | `/map-mitre-attack` + `/generate-menukaart` | 10-12 min |
-| 08 | [Drie Rapporten + Publish](lab-08-rapporten.md) | `/create-*-report` x 3 | 12-15 min |
+| 01 | [Engagement Kickoff](lab-01-engagement-kickoff.md) | `/parse-consultant-notes` | 25-45 min |
+| 02 | [Asset Inventarisatie](lab-02-asset-inventarisatie.md) | `/classify-assets` | 25-45 min |
+| 03 | [Annex A Mapping](lab-03-annex-a-mapping.md) | `/map-annex-a` | 25-45 min |
+| 04 | [Gap-Analyse + Maturity](lab-04-gap-analyse.md) | `/assess-control-gap` + `/score-maturity` | 25-45 min |
+| 05 | [Multi-Norm (IEC 62443 + NIS2)](lab-05-multi-norm.md) | `/map-iec62443` + `/assess-nis2` | 25-45 min |
+| 06 | [Risicobeoordeling](lab-06-risicobeoordeling.md) | `/assess-risk` | 25-45 min |
+| 07 | [ATT&CK Positionering + Menukaart](lab-07-attck-menukaart.md) | `/map-mitre-attack` + `/generate-menukaart` | 25-45 min |
+| 08 | [Drie Rapporten + Publish](lab-08-rapporten.md) | `/create-*-report` x 3 | 25-45 min |
+
+> Tijds-schattingen gaan uit van de complete loop: agent-prompt, state-file schrijven, kernwaarden-bewaker review toepassen. Lab-03/04 zitten praktisch aan de bovenkant van de range door de 93 Annex A controls.
 
 ## Suggested Sequences
 
-**Quickstart (35-45 min):** 01 -> 02 -> 03 -> 08
+**Quickstart (~2 uur):** 01 -> 02 -> 03 -> 08
 
-**Multi-norm focus (45-60 min):** 01 -> 02 -> 03 -> 05 -> 08
+**Multi-norm focus (~3 uur):** 01 -> 02 -> 03 -> 05 -> 08
 
-**Risk + roadmap focus (45-60 min):** 01 -> 02 -> 04 -> 06 -> 07 -> 08
+**Risk + roadmap focus (~4 uur):** 01 -> 02 -> 04 -> 06 -> 07 -> 08
 
-**Full engagement (full day, with breaks):** 01 -> 02 -> 03 -> 04 -> 05 -> 06 -> 07 -> 08
+**Full engagement (6-8 uur, met pauzes):** 01 -> 02 -> 03 -> 04 -> 05 -> 06 -> 07 -> 08
 
 ## Setup
 

@@ -1,12 +1,20 @@
 # Lab 04 - Gap-Analyse + Maturity Scoring
 
-**Time:** 12-15 minutes
+**Time:** 25-45 minutes
 **Skill:** `/assess-control-gap` + `/score-maturity`
 **Agent:** compliance-auditor + maturity-scorer
 **Workflow:** gap-analyse (stappen 2-3)
 **Goal:** Verdiep de Annex A mapping van Lab 03 tot een formele gap-beoordeling per control en bepaal de CMM-maturity-scores per domein.
 
 ---
+
+## Prerequisites
+
+```bash
+for f in gap-analyse/annex-a-mapping.md intake/parsed-notes.md intake/asset-register.md; do
+  ls /workshop/state/iso27001/$f 2>/dev/null || echo "MISSING /workshop/state/iso27001/$f - doe Lab 01-03 eerst"
+done
+```
 
 ## Setup
 

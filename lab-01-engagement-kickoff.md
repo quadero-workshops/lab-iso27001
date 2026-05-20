@@ -1,6 +1,6 @@
 # Lab 01 - Engagement Kickoff
 
-**Time:** 10-15 minutes
+**Time:** 25-45 minutes
 **Skill:** `/parse-consultant-notes`
 **Agent:** asset-analyst
 **Workflow:** intake-en-normalisatie (stap 1)

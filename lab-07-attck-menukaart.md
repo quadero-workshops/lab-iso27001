@@ -1,12 +1,20 @@
 # Lab 07 - ATT&CK Positionering + Menukaart
 
-**Time:** 10-12 minutes
+**Time:** 25-45 minutes
 **Skill:** `/map-mitre-attack` + `/generate-menukaart`
 **Agent:** attack-mapper + remediation-planner
 **Workflow:** positionering-en-menukaart
 **Goal:** Plot bestaande controls op MITRE ATT&CK matrix om dekkings- en diepte-gaten te tonen, en vertaal dit naar een geprioriteerde menukaart met vervolgblokken inclusief indicatieve prijzen.
 
 ---
+
+## Prerequisites
+
+```bash
+for f in risk/risk-register.md gap-analyse/top-20-gaps.md; do
+  ls /workshop/state/iso27001/$f 2>/dev/null || echo "MISSING /workshop/state/iso27001/$f - doe Lab 04/06 eerst"
+done
+```
 
 ## Setup
 

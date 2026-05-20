@@ -1,12 +1,20 @@
 # Lab 06 - Risicobeoordeling
 
-**Time:** 10-12 minutes
+**Time:** 25-45 minutes
 **Skill:** `/assess-risk`
 **Agent:** risk-assessor
 **Workflow:** risicobeoordeling
 **Goal:** Voer een ISO 27005-conforme risicobeoordeling uit op basis van de gaps, assets, en incident-historie. Lever een risk register met L x I scoring en behandel-voorstellen.
 
 ---
+
+## Prerequisites
+
+```bash
+for f in gap-analyse/top-20-gaps.md multi-norm/consolidated-gaps.md intake/asset-register.md; do
+  ls /workshop/state/iso27001/$f 2>/dev/null || echo "MISSING /workshop/state/iso27001/$f - doe Lab 02/04/05 eerst"
+done
+```
 
 ## Setup
 
